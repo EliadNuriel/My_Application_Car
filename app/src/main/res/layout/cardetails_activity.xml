@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    android:layout_width="match_parent"
+    android:background="@android:color/holo_orange_light"
+    android:layout_height="match_parent">
+<ImageView
+    android:id="@+id/car_image"
+    android:layout_margin="32dp"
+    android:transitionName="avatarTrasnition"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:src="@drawable/ic_baseline_add_24"/>
+
+    <TextView
+        android:id="@+id/car_brand_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:text="car brand"
+        android:textSize="24sp"/>
+    <TextView
+        android:id="@+id/car_model_tv"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:text="car model"
+        android:textSize="24sp"/>
+    <TextView
+        android:id="@+id/car_year_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:text="car year"
+        android:textSize="24sp"/>
+    <TextView
+        android:id="@+id/car_price_tv"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:text="car price"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/back_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="64dp"
+        android:backgroundTint="@color/black"
+        android:text="Back"/>
+
+</LinearLayout>
